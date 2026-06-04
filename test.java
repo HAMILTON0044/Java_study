@@ -1,28 +1,21 @@
-package com.liuchenyu.test;
+package com.lcy.test;
 
-import java.util.Scanner;
+import java.sql.SQLOutput;
 
 public class test {
-    static void main(String[] args) {
-        //彩票中奖案例
-        //1，生成一个7位随机数
-        int number = (int)(Math.random()*10000000);
+    /*public static void main(String[] args) {
+        System.out.println("hello world");
+    }*/
+    static void main(String[] args) {//public为什么被省去了？
 
-        //2，键盘录入一个7位数表示用户购买的彩票
-        Scanner sc = new Scanner(System.in);
-        System.out.println("请输入7位数的彩票：");
-        int userNumber = sc.nextInt();
-
-
-        //3，判断用户输入的彩票是否和系统生成的彩票一致
-        if(number == userNumber){
-            System.out.println("恭喜你，中奖了");
-        }
-        else{
-            System.out.println("请重新输入");
-        }
-
-        System.out.println("系统生成的彩票是："+number);
-
+        System.out.println("hello world");
     }
 }
+//字面量：程序中的数据
+//整数：1 2 3 4 5 6 7 8 9 10
+//小数：1.1 2.2 3.3 4.4 5.5 6.6 7.7 8.8 9.9 10.0
+//字符串："hello world"
+//字符：'a'
+//布尔类型：true false
+//空类型：null
+
